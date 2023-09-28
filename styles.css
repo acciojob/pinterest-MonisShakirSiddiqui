@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+.hero{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero>img{
+    width: 70%;
+	height: 50%;
+	object-fit: cover;
+}
+.hero-content{
+	text-align: center;
+
+}
+.hero-content h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+}
+
+/* Style the hero paragraph */
+.hero-content p {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-bottom: 30px;
+}
+
+/* Style the "Explore Now" button */
+.explore-button {
+    padding: 15px 30px; /* Adjust padding as needed */
+    background-color: #e60023; /* Set your desired button background color */
+    color: #ffffff; /* Set your desired button text color */
+    text-decoration: none; /* Remove underlines for links */
+    border-radius: 25px; /* Adjust border radius for button shape */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
